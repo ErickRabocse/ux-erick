@@ -1,24 +1,36 @@
-// import {  IconButton} from '@mui/material'
-import { AppBar, Toolbar, Typography, Stack, Button } from '@mui/material'
 import logo from '../assets/logo_3.png'
-// import CatchingPokemonIcon from '@mui/icons-material/CatchingPokemon'
 
 const NavBar = () => {
   return (
-  // <AppBar position='static'>
-    <AppBar color='secondary'>
-      <Toolbar>
-        <img src={logo} alt='logo' style={{ height: 35, marginRight: 10, transform: 'rotate(0deg)' }} />
-        <Typography variant='h6' component='div' sx={{ flexGrow: 1 }}>
-          Erick Chávez
-        </Typography>
-        <Stack direction='row' spacing={2}>
-          <Button color='inherit'>About me</Button>
-          <Button color='inherit'>Projects</Button>
-          <Button color='inherit'>Contact</Button>
-        </Stack>
-      </Toolbar>
-    </AppBar>
+
+    <nav className='navbar navbar-expand-lg bg-body-tertiary'>
+      <div className='container-fluid d-flex'>
+        <a className='navbar-brand' href='#'>
+          <img src={logo} alt='Logo' height='24' className='d-inline-block align-text-top  mx-2' />
+          Erick Chávez Escobar
+        </a>
+        <div className='buttons'>
+          <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
+            <span className='navbar-toggler-icon' />
+          </button>
+          <div className='collapse navbar-collapse' id='navbarNav'>
+            <ul className='navbar-nav'>
+              <li className='nav-item'>
+                <a className='nav-link active' aria-current='page' href='#'>About me</a>
+              </li>
+              <li className='nav-item'>
+                <a className='nav-link' href='#'>Projects</a>
+              </li>
+              <li className='nav-item'>
+                <a className='nav-link' href='#'>Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+
   )
 }
 export default NavBar

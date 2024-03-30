@@ -3,7 +3,20 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
-html{
-  scroll-behavior: smooth;
-  /* scroll-padding-top: 100px; */
+.hero--content{
+  height: 100vh;
+}
+.hero--content_text{
+  padding: 80px 40px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.welcome{
+  color: #7397a9;
+  letter-spacing: 10px;
+  font-size: 4rem;
+  margin-bottom: -10px;
+}
+.message{
+  color: #7397a9;
+  font-size: 2rem;
 }
