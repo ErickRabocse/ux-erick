@@ -3,20 +3,73 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
-.hero--content{
+.content{
   height: 100vh;
-}
-.hero--content_text{
-  padding: 80px 40px;
+  padding: 40px 80px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content_text{
+ position: absolute;
+ top: 40%;
 }
 .welcome{
   color: #7397a9;
   letter-spacing: 10px;
   font-size: 4rem;
-  margin-bottom: -10px;
 }
 .message{
   color: #7397a9;
   font-size: 2rem;
 }
+.about{
+  height: 100vh;
+  padding: 40px 80px;
+  background: rgb(249,246,241);
+  background: linear-gradient(328deg, rgba(249,246,241,1) 0%, rgba(62,112,136,1) 100%);
+}
+.about-header{
+  margin-bottom: 30px;
+}
+.about_text{
+  position: absolute;
+  top: 15%;
+  width: 40%;
+  color: #Eff2f0;
+  font-size: 1.5rem;
+  text-align: justify;
+ }
+ .me{
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  width: 30%;
+  border-radius: 10%;
+  object-fit: contain;
+ }
+
+ .projects{
+  height: 100vh;
+  padding: 40px 80px;
+}
+
+.projects_text{
+  position: absolute;
+  top: 15%;
+  width: 50%;
+  text-align: justify;
+  font-size: 2rem;
+ }
+ .contact{
+  height: 100vh;
+  padding: 40px 80px;
+  background: rgb(249,246,241);
+  background: linear-gradient(128deg, rgba(249,246,241,1) 0%, rgba(62,112,136,1) 100%);
+}
+.contact_text{
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  text-align: justify;
+  font-size: 1.5rem;
+  color: #Eff2f0;
+ }
