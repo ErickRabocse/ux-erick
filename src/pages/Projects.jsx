@@ -13,7 +13,10 @@ const Projects = () => {
         </div>
         <div className='project_description'>
           <h2>Project Name</h2>
-          <p>Project description ...</p>
+          <p>Project description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, debitis temporibus, pariatur eligendi similique unde eaque laboriosam.</p>
+          <div className='btn_container'>
+            <button className='project_btn'>View</button>
+          </div>
         </div>
       </div>
 
@@ -23,7 +26,10 @@ const Projects = () => {
         </div>
         <div className='project_description'>
           <h2>Project Name</h2>
-          <p>Project description ...</p>
+          <p>Project description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, debitis temporibus, pariatur eligendi similique unde eaque laboriosam labore ipsam eius eveniet a dolorem, reiciendis sed.</p>
+          <div className='btn_container'>
+            <button className='project_btn'>View</button>
+          </div>
         </div>
       </div>
 
@@ -33,7 +39,10 @@ const Projects = () => {
         </div>
         <div className='project_description'>
           <h2>Project Name</h2>
-          <p>Project description ...</p>
+          <p>Project description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, debitis temporibus, pariatur eligendi similique unde eaque laboriosam labore ipsam eius eveniet a dolorem, reiciendis sed.</p>
+          <div className='btn_container'>
+            <button className='project_btn'>View</button>
+          </div>
         </div>
       </div>
     </div>

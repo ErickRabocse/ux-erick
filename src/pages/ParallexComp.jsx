@@ -2,6 +2,7 @@ import React from 'react'
 import { Parallax } from 'react-parallax'
 import me from '../img/me_comp.png'
 import Projects from './Projects'
+import './parallexComp.css'
 
 const ParallexComp = () => {
   return (
@@ -42,7 +43,6 @@ const ParallexComp = () => {
             <p>Phone</p>
             <p>WhatsApp</p>
           </div>
-
         </div>
       </Parallax>
     </div>
