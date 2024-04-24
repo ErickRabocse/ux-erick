@@ -1,15 +1,16 @@
 import './App.css'
-import NavBar from './components/NavBar'
 import ParallexComp from './pages/ParallexComp'
-// import woods from './img/woods.jpeg'
 // import FullPageScroll from './pages/FullPageScroll'
+import { BrowserRouter } from 'react-router-dom'
+import NavBar from './components/NavBar'
 
 function App () {
   return (
     <>
-      <NavBar />
-      {/* <FullPageScroll /> */}
-      <ParallexComp />
+      <BrowserRouter>
+        <NavBar />
+        <ParallexComp />
+      </BrowserRouter>
     </>
   )
 }

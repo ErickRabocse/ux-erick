@@ -6,7 +6,7 @@ import './pages.css'
 
 const Projects = () => {
   return (
-    <div className='projects_parent'>
+    <div className='projects_parent' id='projects'>
       <div className='project_container'>
         <div className='project_img_container'>
           <img src={one} alt='' className='project_img' />

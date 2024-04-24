@@ -17,7 +17,7 @@ const ParallexComp = () => {
         </div>
       </Parallax>
       <Parallax>
-        <div className='about'>
+        <div className='about' id='about'>
           <div className='about_text'>
             <h1 className='about-header'>About me</h1>
             <p>I am interested in timeless designs that capture the essence of emotions, bring joy to those who see it and inevitably create an experience.</p>
@@ -30,12 +30,10 @@ const ParallexComp = () => {
         </div>
       </Parallax>
       <Parallax>
-
         <Projects />
-
       </Parallax>
       <Parallax>
-        <div className='contact'>
+        <div className='contact' id='contact'>
           <div className='contact_text'>
             <h1 className='about-header'>Contact</h1>
             <p>LinkedIn</p>
