@@ -34,7 +34,7 @@
     width: 33%;
 }
 .project_container:hover .project_img{
-    opacity: 0.6;
+    opacity: 0.4;
     transition: all 0.5s ease-in-out;
 }
 .project_img{
@@ -73,4 +73,53 @@
 .btn_container{
     display:flex;
     justify-content: center;
+}
+/* CONTACT SECTION */
+.contact{
+    height: 100vh;
+    padding: 40px 80px;
+    background: rgb(249,246,241);
+    background: linear-gradient(128deg, rgba(249,246,241,1) 0%, rgba(62,112,136,1) 100%);
+    display: flex;
+}
+.contact_img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mail_img{
+    height: 500px;
+    border-radius: 50%;
+}
+.contact_text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact_text{
+    width: 50%;
+}
+.networks{
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    transition: all 0.2s ease;
+}
+.box:hover{
+    background-color: black;
+}
+.box:hover .network{
+    transform: scale(1.3);
 }

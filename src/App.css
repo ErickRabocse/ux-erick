@@ -74,18 +74,5 @@ body{
   text-align: justify;
   font-size: 2rem;
  }
- .contact{
-  height: 100vh;
-  padding: 40px 80px;
-  background: rgb(249,246,241);
-  background: linear-gradient(128deg, rgba(249,246,241,1) 0%, rgba(62,112,136,1) 100%);
-}
-.contact_text{
-  position: absolute;
-  top: 15%;
-  left: 60%;
-  text-align: justify;
-  font-size: 1.5rem;
-  color: #Eff2f0;
- }
+
 

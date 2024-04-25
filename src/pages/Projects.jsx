@@ -9,7 +9,7 @@ const Projects = () => {
     <div className='projects_parent' id='projects'>
       <div className='project_container'>
         <div className='project_img_container'>
-          <img src={one} alt='' className='project_img' />
+          <img src={two} alt='' className='project_img' />
         </div>
         <div className='project_description'>
           <h2>Project Name</h2>
@@ -22,7 +22,7 @@ const Projects = () => {
 
       <div className='project_container'>
         <div className='project_img_container'>
-          <img src={two} alt='' className='project_img' />
+          <img src={one} alt='' className='project_img' />
         </div>
         <div className='project_description'>
           <h2>Project Name</h2>

@@ -7,8 +7,8 @@ const NavBar = () => {
 
     <nav className='navbar navbar-expand-lg bg-body-tertiary position-fixed'>
       <div className='container-fluid'>
-        <Link className='navbar-brand' to='#contact'>
-          <img src={logo} alt='Logo' height='24' className='d-inline-block align-text-top  mx-2' />
+        <Link className='navbar-brand' to='#hero'>
+          <img src={logo} alt='Logo' height='30' className='d-inline-block align-text-top  mx-2' />
           Erick Chávez Escobar
         </Link>
         <button className='navbar-toggler' type='button' data-bs-toggle='collapse' data-bs-target='#navbarNav' aria-controls='navbarNav' aria-expanded='false' aria-label='Toggle navigation'>
