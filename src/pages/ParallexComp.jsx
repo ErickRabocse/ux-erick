@@ -13,7 +13,7 @@ const ParallexComp = () => {
         <div className='content' id='hero'>
           <div className='content_text'>
             <p className='welcome'>WELCOME</p>
-            <p className='message'>Thanks for your visit</p>
+            <p className='message'>It's great to have you here.</p>
           </div>
         </div>
       </Parallax>
@@ -21,9 +21,9 @@ const ParallexComp = () => {
         <div className='about' id='about'>
           <div className='about_text'>
             <h1 className='about-header'>Hi there! I'm Erick</h1>
-            <p>I am interested in timeless designs that capture the essence of emotions, bring joy to those who see it and inevitably create an experience.</p>
-            <p>I am currently taking a UX Design course at Google and I am countinously learning about front end technologies since I enjoy bringing to life anything that I can picture in my mind.</p>
-            <p>The technologies I am familiar with are: HTML, CSS, JS, Typescript, Bootstrap, GitHub, React, Figma & Adobe Illustrator.</p>
+            <p>Currently, I wear two hats: an English teacher and an aspiring frontend developer.  My journey began with teaching, where I fostered communication skills and cultural understanding. Along the way, I’ve completed front-end courses, mastering HTML, CSS, and JavaScript. Now, I’m diving into React, eager to build dynamic web applications that resonate with users. </p>
+            <p>My professional path has led me to collaborate with public institutions remotely. Working across geographical boundaries has taught me adaptability and the importance of teamwork. I’ve contributed to projects that impact education and community development.</p>
+            <p>Clean layouts, intuitive navigation, and seamless interactions captivate me, I admire the fusion of aesthetics and functionality. Modern interfaces that prioritize user experience and accessibility inspire me to create digital experiences that leave a lasting impression. Whether it’s coding, designing, or problem-solving, I thrive on finding ways to create meaningful impact through technology.</p>
           </div>
           <div className='about_img'>
             <img src={me} alt='profile photo of Erick' className='me' />
