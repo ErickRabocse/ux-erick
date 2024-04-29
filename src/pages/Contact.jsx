@@ -18,22 +18,30 @@ const Contact = () => {
           <div className='networks'>
             <div className='linkedin_box box'>
               <span>
-                <img className='network' src={linked} alt='' style={{ height: '40px' }} />
+                <a href='https://www.linkedin.com/in/erick-ch%C3%A1vez-2944ba89/' target='_blank'>
+                  <img className='network' src={linked} alt='' style={{ height: '40px' }} />
+                </a>
               </span>
             </div>
             <div className='git_box box'>
               <span>
-                <img className='network' src={github} alt='' style={{ height: '40px' }} />
+                <a href='https://github.com/ErickRabocse' target='_blank'>
+                  <img className='network' src={github} alt='' style={{ height: '40px' }} />
+                </a>
               </span>
             </div>
             <div className='mail_box box'>
               <span>
-                <img className='network' src={gmail} alt='' style={{ height: '40px' }} />
+                <a href='mailto:erickchavezescobar@gmail.com'>
+                  <img className='network' src={gmail} alt='' style={{ height: '40px' }} />
+                </a>
               </span>
             </div>
             <div className='whats_box box'>
               <span>
-                <img className='network' src={whatsapp} alt='' style={{ height: '40px' }} />
+                <a href='https://wa.me/527297294511/?text=Hi%20Erick%2C%20I%20want%20to%20get%20in%20touch%20with%20you.' aria-label='Chat on WhatsApp' alt='Chat on WhatsApp' target='_blank'>
+                  <img className='network' src={whatsapp} alt='' style={{ height: '40px' }} />
+                </a>
               </span>
             </div>
           </div>
