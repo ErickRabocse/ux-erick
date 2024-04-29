@@ -7,10 +7,6 @@
     padding: 80px 40px;
 }
 .ps:nth-child(1){
-    /* background: linear-gradient(217deg, #D95995, rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, #D0ECF2, rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg, #F2CB05, rgba(0,0,255,0) 70.71%), url("../img/p4.jpeg"); */
-    /* background-image: url("../img/.jpeg"); */
     background: 
     linear-gradient(90deg, hsl(0, 0%, 100%),  rgba(0,255,0,0) 50%),
     url("../img/p4.jpeg");
@@ -21,6 +17,9 @@
 .navbar{
     z-index: 10;
     width: 100%;
+}
+.nav-link:hover{
+    color: black;
 }
 
 .projects_parent{
